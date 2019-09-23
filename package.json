@@ -1,0 +1,8 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adeshkadambi/hackernews-node.git",
+  "author": "adeshkadambi <adeshkadambi@gmail.com>",
+  "license": "MIT"
+}
