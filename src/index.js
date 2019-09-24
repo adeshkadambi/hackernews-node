@@ -17,7 +17,9 @@ const resolvers = {
   Query: {
     info: () => `This is the API of a Hackernews Clone`,
     feed: () => links,
+    link: (parent, args) => links.find(link => link.id === args.id), // find link by id.
   },
+
   Mutation: {
     post: (parent, args) => {
        const link = {
