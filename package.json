@@ -6,6 +6,7 @@
   "author": "adeshkadambi <adeshkadambi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "prisma-client-lib": "^1.34.8"
   }
 }
